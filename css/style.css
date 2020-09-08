@@ -39,7 +39,6 @@ body{
 .row{
 	max-width: 1180px;
 	margin:0 auto;
-	
 }
 .logo{
 	height:200px;
@@ -123,6 +122,7 @@ h2{
 	vertical-align: middle;
 	width:100%;
 }
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -184,6 +184,7 @@ input[type=submit]:hover {
 		padding:0 2%; 
 	}
 	.container{font-size:200%}
+
 } 
 @media only screen and (max-width:998px){
 	h1{font-size:200%;}
@@ -199,7 +200,8 @@ input[type=submit]:hover {
     flex: 50%;
     max-width: 50%;
   }
-	.container{font-size:200%}
+
+  .container{font-size:200%}
 }
 @media only screen and (max-width: 900px){
 	h1{font-size:180%;}
@@ -223,15 +225,15 @@ input[type=submit]:hover {
     flex: 100%;
     max-width: 100%;
   }
-.col-25, .col-75, input[type=submit] {
+  .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
 @media only screen and (max-width: 450px){
-	h1{font-size: 90%}
-	h2{font-size:60%;}
-	.container{font-size:65%;}
+	h1{font-size: 105%}
+	h2{font-size:75%;}
+	.container1{font-size:65%;}
 	.main-nav{
 		float: left;
 	}
@@ -244,6 +246,8 @@ input[type=submit]:hover {
 	.footer{
 		font-size:10px;
 	}
+	.number{
+		font-size:15px
+	}
 	.container{font-size:75%}
 }
-
