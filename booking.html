@@ -22,26 +22,59 @@
       </div>   
       </nav>   
       <div class="booking">
-        <h2>For Booking </h2>
-<form action="/action_page.php" class="container">
-<label>Enter your Name:</lable><br>
-<input type="text" placeholder="Name" name="Enter your Name" required><br>
-<lable>Mobile Number:</lable><br>
-<input type="password" placeholder="Password" name="Mobile Number" requird><br>
-<lable>Enter your Email:</lable><br>
-<input type="Enter" placeholder="Email" name="Enter your Email" requird><br>
-<p>Please select your age:</p>
-  <input type="radio" id="age1" name="age" value="30">
+        <center><h2>For Booking </h2></center>
+        <div class="container">
+  <form>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="name" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Email" name="Email" placeholder="Your Email..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Address" name="name" placeholder="Your Address..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="age">age</label>
+    </div>
+    <div class="col-75">
+ <input type="radio" id="age1" name="age" value="30">
   <label for="age1">0 - 30</label><br>
   <input type="radio" id="age2" name="age" value="60">
   <label for="age2">31 - 60</label><br>  
   <input type="radio" id="age3" name="age" value="100">
   <label for="age3">61 - 100</label><br><br>
-  <lable>Message:</lable><br>
-<input type="Enter" placeholder="Message" name="Enter your Message" requird><br>
-  <input type="submit" value="Submit">
-</form>
-</label></form></div>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Message">Message</label>
+    </div>
+    <div class="col-75">
+      <textarea id="Message" name="Message" placeholder="Write something.."></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>       
 </header>
 <div class="footer">
   <p>Developed by A.Farheen Taj,MITSWC192023,CSE,MITS</p>
