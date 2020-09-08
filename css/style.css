@@ -231,7 +231,7 @@ input[type=submit]:hover {
   }
 }
 @media only screen and (max-width: 450px){
-	h1{font-size: 105%}
+	h1{font-size: 95%}
 	h2{font-size:75%;}
 	.container1{font-size:65%;}
 	.main-nav{
