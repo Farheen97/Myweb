@@ -47,7 +47,6 @@ body{
 	margin-top: 20px;
 }
 .main-nav{
-	float:right;
 	margin-top: 60px;
 }
 .main-nav li{
@@ -85,6 +84,18 @@ h2{
 	margin-bottom: 20px;
 
 }
+h3{
+	color:red;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size:20px;
+}
+h4{
+	color:white;
+	font-size:15px;
+	font-weight: lighter;
+}
+
 .container1
 {
 	color:yellow;
@@ -190,6 +201,8 @@ input[type=submit]:hover {
 @media only screen and (max-width:998px){
 	h1{font-size:200%;}
 	h2{font-size:150%;}
+		h2{font-size:15px;}
+		h4{font-size:13px;}
 	.container1{
 		font-size: 150%;
 	}
@@ -221,6 +234,7 @@ input[type=submit]:hover {
 @media only screen and (max-width:500px){
 	h1{font-size: 115%%}
 	h2{font-size:75%;}
+		h3{font-size:40%;}
 	.column {
     -ms-flex: 100%;
     flex: 100%;
@@ -232,8 +246,9 @@ input[type=submit]:hover {
   }
 }
 @media only screen and (max-width: 450px){
-	h1{font-size: 95%}
+	h1{font-size: 105%}
 	h2{font-size:75%;}
+		h3{font-size:60%;}
 	.container1{font-size:65%;}
 	.main-nav{
 		float: left;
@@ -242,7 +257,7 @@ input[type=submit]:hover {
 		font-size: 55%
 	}
 	.logo{
-		height:150px;
+		height:120px;
 	}
 	.footer{
 		font-size:10px;
@@ -252,10 +267,11 @@ input[type=submit]:hover {
 	}
 	.container{font-size:75%}
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 380px){
 	h1{font-size: 75%}
+	h4{font-size:11px;}
 	.logo{
-		height:125px;
-		width:auto;
+		height:120px;
+		width: auto;
 	}
 }
